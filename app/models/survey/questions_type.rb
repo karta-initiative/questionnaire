@@ -1,7 +1,14 @@
 # frozen_string_literal: true
 
 class Survey::QuestionsType
-  @@questions_types = { multiple_choice: 2, free_response: 9, multi_select: 1 }
+  @@questions_types = {
+    multiple_choice: 1,
+    single_choice: 2,
+    number: 3,
+    string: 4,
+    text: 5,
+    file_upload: 6,
+  }
 
   def self.questions_types
     @@questions_types
