@@ -8,6 +8,7 @@ class Survey::QuestionsType
     string: 4,
     text: 5,
     file_upload: 6,
+    multi_select: 7,
   }
 
   def self.questions_types
