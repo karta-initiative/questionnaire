@@ -9,7 +9,8 @@ class Survey::OptionsType
                       single_choice_with_text: 6,
                       multi_choices_with_number: 7,
                       single_choice_with_number: 8,
-                      large_text: 9 }
+                      large_text: 9,
+                      file_upload: 10 }
 
   def self.options_types
     @@options_types
